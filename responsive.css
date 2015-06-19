@@ -1,0 +1,93 @@
+html {
+	font-size: 26px;
+}
+
+body {
+	background-color: #A9AFAF;
+}
+ /* Navigation Bar */
+.nav-container {
+	text-align: center;
+	padding: 10px;
+}
+
+.navbar {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    max-width: 960px;
+    background-color: #47A375;
+    border-radius: .5em;
+}
+
+.navbar li {
+
+}
+
+.navbar li a {
+    display: block;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+	color: blue;
+}
+
+/* Main Content*/
+
+.col-main {
+	background-color: #E9E9F0;
+	padding: 20px;
+}
+
+.main-image {
+	text-align: center;
+}
+
+.body-text {
+	font-size: .75em;
+	padding: 10px;
+}
+
+/* Image Gallery */
+
+.gallery {
+	text-align: center;
+}
+
+.gallery-images {
+	display: inline-block;
+}
+
+.gallery-images img {
+	height: 225px;
+	width: 225px;
+}
+
+/* Screen Size Responsive Changes */
+
+@media (min-width:520px) {
+	.navbar li {
+    display: inline-block;
+	}
+
+	.col-main {
+		margin: 5% 10%;
+	}
+}
+
+@media (min-width:960px) {
+
+	body {
+		background: #A9AFAF url("https://upload.wikimedia.org/wikipedia/commons/b/bd/Cotswolds_Panorama_Fields.jpg") no-repeat;
+	}
+
+	.col-main {
+		margin: 5% 20%;
+	}
+}
